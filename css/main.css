@@ -1,0 +1,176 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+ .header {
+    padding: 15px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.header-logo{
+    width: 100%
+
+}
+.header-logo-image {
+    width: 60px;
+}
+.header-nav-list {
+    display: flex;
+    list-style: none;
+    gap: 110px;
+    
+}
+.header-nav-list-item {
+    display: inline-block;
+    text-decoration: none;
+    
+}
+.header-action{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+.header-action-list{
+  width: 100%;
+  
+}
+.header-action-list-item {
+    width: 40px;
+}
+.main-image {
+    background-color: blueviolet;
+    background-image: url(../image/wallpeper.jpg);
+    padding: 100px;
+    background-repeat: no-repeat;
+}
+.main-section{
+    display: flex;
+    justify-content: center;
+}
+.main-collection>h3 {
+    display: flex;
+    justify-content: center;
+}
+.main-collection {
+    padding: 50px;
+}
+.main-collection-list {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+ .main-collection-list-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ }   
+.main-client>h3{
+    display: flex;
+    justify-content: center;
+}
+.main-client {
+    background-color: antiquewhite;
+    padding: 50px;
+}
+.main-client-list {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-client-list-item {
+    padding: 50px;
+}
+ .main-blog>h3{
+    display: flex;
+    justify-content: center;
+ }
+.main-blog {
+    padding: 80px 80px 80px 80px;
+}
+.main-blog-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.main-blog-list-item {
+    width: 50%;
+    display: flex;
+}
+.main-blog-list-item1{
+    padding: 0 0 0 10px;
+}
+.blog-input {
+    display: flex;
+    justify-content: center;
+}
+.main-blog-information {
+    
+    background-color: antiquewhite;
+
+}
+.main-blog-information {
+    padding: 100px;
+}
+.main-blog-information-list{
+    display: flex;
+}
+.main-blog-priorit {
+    padding: 100px;
+}
+.main-blog-priorit>h3{
+    display: flex;
+    justify-content: center;
+}
+.main-blog-priorit-list {
+    display: flex;
+    justify-content: space-between;
+}
+.main-blog-priorit-list-item {
+    display: flex;
+    flex-direction: column;
+
+}
+.list-blog-priorit-list-item>image {
+    width: 100%;
+}
+.sekil {
+    width: 40px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    padding: 30px 20px;
+    background-color: antiquewhite;
+}
+.footer-info {
+    display: flex;
+}
+.footer-info-contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-logo {
+    width: 100%;
+}
+.footer-logo-image {
+    width: 40%;
+}
+.contact {
+    width: 100%;
+}
+.contact-image {
+    width: 20%;
+}
+.mobil {
+    width: 100%;
+}
+.mobil-image {
+    width: 20%;
+}
