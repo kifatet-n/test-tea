@@ -2,12 +2,12 @@ body {
     margin: 0;
     padding: 0;
 }
- .header {
-    padding: 15px 150px;
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.header-container {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
 }
 .header-logo{
     width: 100%
@@ -40,26 +40,43 @@ body {
     width: 40px;
 }
 .main-image {
-    background-color: blueviolet;
+    
     background-image: url(../image/wallpeper.jpg);
-    padding: 100px;
     background-repeat: no-repeat;
+    
+    
+    
+}
+
+.word {
+    height:500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-bottom: 48px;
+    margin-bottom: 20px;
+    
+    color: white;
+
 }
 .main-section{
     display: flex;
     justify-content: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
 .main-collection>h3 {
     display: flex;
     justify-content: center;
-}
-.main-collection {
-    padding: 50px;
+    
+    
 }
 .main-collection-list {
     display:flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 70px;
+
+    
 }
  .main-collection-list-item {
     display: flex;
@@ -73,23 +90,30 @@ body {
 }
 .main-client {
     background-color: antiquewhite;
-    padding: 50px;
+    padding-top:50px ;
+    padding-bottom: 50px;
+
 }
 .main-client-list {
-
     display: flex;
-    justify-content: center;
-    align-items: center;
+
+    
 }
 .main-client-list-item {
-    padding: 50px;
+    display: flex; 
+    flex-direction: column;
+    
+    
 }
  .main-blog>h3{
     display: flex;
     justify-content: center;
+    padding-bottom: 50px;
  }
 .main-blog {
-    padding: 80px 80px 80px 80px;
+    padding-top:50px;
+    padding-bottom: 50px;
+    
 }
 .main-blog-list {
     display: flex;
@@ -105,20 +129,24 @@ body {
 .blog-input {
     display: flex;
     justify-content: center;
+    padding-top: 30px;
 }
 .main-blog-information {
     
     background-color: antiquewhite;
+     padding-top: 50px;
+     padding-bottom: 50px;
+}
 
-}
-.main-blog-information {
-    padding: 100px;
-}
 .main-blog-information-list{
     display: flex;
+    justify-content: space-between;
+    
 }
+
 .main-blog-priorit {
-    padding: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .main-blog-priorit>h3{
     display: flex;
@@ -139,14 +167,17 @@ body {
 .sekil {
     width: 40px;
 }
-
+.bgcolor {
+    background-color: antiquewhite;
+    height: 300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
 .footer {
     display: flex;
-    justify-content: center;
     justify-content: space-between;
-    justify-content: space-around;
-    padding: 30px 20px;
-    background-color: antiquewhite;
+
+    
 }
 .footer-info {
     display: flex;
